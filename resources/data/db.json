@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "กาแฟเย็น",
+      "unitPrice": "120",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "กาแฟร้อน",
+      "unitPrice": "60",
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "โกโก้ร้อน",
+      "unitPrice": "80",
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "กาแฟดำ",
+      "unitPrice": "80",
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "ชาเขียว",
+      "unitPrice": "100",
+      "thumbnail": "/images/product/5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "ชาเย็น",
+      "unitPrice": "70",
+      "thumbnail": "/images/product/6.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2020-03-10T14:19:42.776Z",
+      "totalPrice": 120,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "กาแฟเย็น",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2020-03-10T14:19:45.919Z",
+      "totalPrice": 50,
+      "orders": [
+        {
+          "product": {
+            "productName": "milk",
+            "thumbnail": "milk.jpg",
+            "unitPrice": "50",
+            "id": 8
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

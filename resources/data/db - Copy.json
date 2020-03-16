@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "กาแฟเย็น",
+      "unitPrice": "120",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "กาแฟร้อน",
+      "unitPrice": "60",
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "โกโก้ร้อน",
+      "unitPrice": "80",
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "กาแฟดำ",
+      "unitPrice": "80",
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "ชาเขียว",
+      "unitPrice": "100",
+      "thumbnail": "/images/product/5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "ชาเย็น",
+      "unitPrice": "70",
+      "thumbnail": "/images/product/6.jpg"
+    }
+  ],
+  "orders": []
+}

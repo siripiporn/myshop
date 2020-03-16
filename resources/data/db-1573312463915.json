@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "สลัดผัก",
+      "unitPrice": "123",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "ไก่ทอด",
+      "unitPrice": "180",
+      "thumbnail": "/images/product/2.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2019-11-02T14:18:24.716Z",
+      "totalPrice": 420,
+      "orders": [
+        {
+          "product": {
+            "id": 6,
+            "productName": "กาแฟ",
+            "unitPrice": "140",
+            "thumbnail": "/images/product/6.jpg"
+          },
+          "quantity": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2019-11-02T14:18:29.878Z",
+      "totalPrice": 360,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "สลัดผัก",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "orderedDate": "2019-11-03T09:33:47.587Z",
+      "totalPrice": null,
+      "orders": [
+        {
+          "product": {
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "ตจ",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
